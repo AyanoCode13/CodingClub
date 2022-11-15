@@ -1,35 +1,187 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta name="theme-color" content="#fafafa" />
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="manifest" href="site.webmanifest" />
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
+  <script src="js/vendor/modernizr-3.12.0.min.js"></script>
+  <script src="js/app.js"></script>
 </head>
 
 <body>
-
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.12.0.min.js"></script>
-  <script src="js/app.js"></script>
+  <div class="right">
+    <a href="https://www.uel.ac.uk/"><img src="./img/uel.png" class="article-image"/></a>
+  </div>
+  <div class="profile-frame">
+    <a href="https://www.linkedin.com/in/andrei-lazar13">
+      <img src="./img/profile.jpg" width="400px" height="400px" class="profile-image" />
+    </a>
+  </div>
+  
 
+  <div class="container">
+    <div class="intro">
+      <p>
+        My name is Andrei Lazar and I am a final year student at University of East London
+      </p>
+    </div>
+    <div class="left">
+      <div class="contact">
+        <ul tabindex="none">
+          <li class="name">
+            <h3>Name: Andrei Lazar</h3>
+          </li>
+          <li>
+            <h4>Contact</h4>
+          </li>
+          <li>Telephone: 0765234112</li>
+          <li>Email: andrei.lazar@webdev.co.uk</li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+    <div class="right">
+      <ul tabindex="none">
+        <li>
+          <h4>Social</h4>
+        </li>
+        <li>Linkedin: <a href="https://www.linkedin.com/in/andrei-lazar13/">https://www.linkedin.com/in/andrei-lazar13</a></li>
+        <li>GitHub: <a href="https://github.com/AndrewBomberman">https://github.com/AndrewBomberman</a></li>
+      </ul>
+    </div>
+    <div class="center">
+
+      <ul tabindex="none">
+        <li class="name">
+          <h3>Services</h3>
+          <h5>I provide web developement services using MERN stack</h5>
+        </li>
+        <li><a href="#mongo">MongoDB</a></li>
+        <li><a href="#express">ExpressJS</a></li>
+        <li><a href="#react">ReactJS</a></li>
+        <li><a href="#node">NodeJS</a></li>
+      </ul>
+    </div>
+    
+  </div>
+  <div class="left">
+    <img src="./img/react.png" class="article-image"/>
+  </div>
+  <div class="right article" id="react">
+    <ul>
+      <li><h3>Advantages of React</h3></li>
+      <li>
+        Popularity
+      </li>
+      <li>
+        SEO Friendly
+      </li>
+      <li>
+        Mobile Friendly
+      </li>
+      <li>
+        Reusable Components
+      </li>
+      <li>
+        Stability
+      </li>
+      <li>
+        Community Support
+      </li>
+    </ul>
+  </div>
+  <div class="right article" id="express">
+    <ul>
+      <li><h3>Advantages of Express</h3></li>
+      <li>
+        Scale our application quickly
+      </li>
+      <li>
+        Supported by Google v8 engine      
+      </li>
+      <li>
+        Supports Caching
+      </li>
+        Community Support
+      </li>
+    </ul>
+  </div>
+  <div class="left">
+    <img src="./img/express.png" class="article-image"/>
+  </div>
+  <div class="right article" id="mongo">
+    <ul>
+      <li><h3>Advantages of MongoDB</h3></li>
+      <li>
+        Flexible Document Schemas
+      </li>
+      <li>
+        Cloud Based
+      </li>
+      <li>
+        Widely supported and code native access
+
+      </li>
+      <li>
+        Powerful querying and analytics
+      </li>
+      <li>
+        High performance
+      </li>
+      <li>
+        Easy horizontal scale-out with sharding
+      </li>
+      <li>
+        Cost-effective
+      </li>
+    </ul>
+  </div>
+  <div class="left">
+    <img src="./img/mongo.png" class="article-image"/>
+  </div>
+  <div class="right article" id="node">
+    <ul>
+      <li><h3>Advantages of NodeJS</h3></li>
+      <li>
+        High-performance for Real-time Applications
+      </li>
+      <li>
+        Easy Scalability for Modern Applications
+
+      </li>
+      <li>
+        Cost-effective with Fullstack JS
+      </li>
+      <li>
+        Community Support to Simplify Development
+      </li>
+      <li>
+        Reduces Loading Time by Quick Caching
+      </li>
+      <li>
+        Extensibility to Meet Customized Requirements
+      </li>
+    </ul>
+  </div>
+  <div class="left">
+    <img src="./img/node.png" class="article-image"/>
+  </div>
 </body>
 
 </html>

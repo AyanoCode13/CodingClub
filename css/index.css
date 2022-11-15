@@ -1,0 +1,127 @@
+
+  body {
+    margin: 0;
+    background-image: linear-gradient(
+    90deg,
+    #00d4ff 30%,
+    #090979 50%,
+    #020024 0%
+  ); 
+  }
+.profile-image {
+  padding: 30px;
+  border-radius: 20% 20% 70% 70%;
+  background-image: linear-gradient(
+    90deg,
+    #020024 0%,
+    #090979 50%,
+    #00d4ff 100%
+  );
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+  }
+.profile-image:hover {
+  border-radius: 70% 70% 20% 30%;
+}
+.profile-frame {
+  width: 80%;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 30% 30% 50% 50%;
+  display: block;
+}
+.intro {
+  padding-top: 5px;
+}
+.intro p {
+  text-align: center;
+  color: #ffffff;
+}
+
+ul {
+  color: #ffffff;
+  list-style-type: none;
+}
+.contact {
+  margin-left: 50px;
+  text-align: left;
+  font-size: medium;
+  padding-bottom: 20px;
+}
+.social {
+  margin-left: 50px;
+  text-align: right;
+  font-size: medium;
+  color: #ffffff;
+}
+.container {
+  border-radius: 30% 30% 80% 80%;
+  height: 300px;
+  margin: 20px;
+  padding-bottom: 20px;
+  background-image: linear-gradient(
+    70deg,
+    #020024 0%,
+    #090979 35%,
+    #00d4ff 100%
+  );
+}
+.info li.name {
+  padding: 15px;
+  text-align: center;
+  font-size: large;
+  text-decoration: underline;
+}
+
+.left {
+  margin: 20px;
+  float: left;
+}
+.right {
+  margin: 20px;
+  float: right;
+}
+.right li a:hover {
+  text-decoration: underline;
+}
+
+.center {
+  display: inline-block;
+  margin: 20px;
+  color: #ffffff;
+}
+.center ul {
+    text-align: center;
+}
+.article-image {
+    height: 400px;
+    width: 600px;
+    border-radius: 70%;
+    transition: transform .7s ease-in-out;
+}
+.article-image:hover {
+    transform: rotate(360deg)
+}
+.article {
+    background-color: #020024;
+    color: #ffffff;
+    height: 400px;
+    width: 500px;
+    border-radius: 30%;
+}
+
+.article p {
+    color: #ffffff;
+    margin: 10%;
+}
+.article li h3 {
+    text-align: center;
+    padding-top: 100px;
+}
+.article ul {
+    text-align: center;
+}
